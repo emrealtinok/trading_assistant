@@ -8,7 +8,7 @@ I coded in most of the popular technical indicators that traders use to analyze 
 
 I set up a recurrent network with two LSTM layers and a Dense layer, followed by the final layer with a sigmoid activation function. I used binary crossentropy to calculate the loss.  
 
-Honestly, I thought that the accuracy of the model would stay close to 50% due to all the randomness and the even distribution of ups and downs in the actual output set. I was suprised to see it go up to 62% accuracy. This made me think that this model can be used as a short-term momentum indicator.
+Honestly, I thought that the accuracy of the model would stay close to 50% due to all the randomness and the even distribution of ups and downs in the actual output set. I was suprised to see it go up to 62-63% accuracy. This made me think that this model can be used as a short-term momentum indicator.
 
 The recurrent neural network outperformed the ensemble classifiers from scikit-learn by 2-3%.
 
