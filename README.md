@@ -10,4 +10,6 @@ I set up a recurrent network with two LSTM layers and a Dense layer, followed by
 
 Honestly, I thought that the accuracy of the model would stay close to 50% due to all the randomness and the even distribution of ups and downs in the actual output set. I was suprised to see it go up to 62% accuracy. This made me think that this model can be used as a short-term momentum indicator.
 
-I will keep on working on this model and test out some of the common startegies that these technical indicators are used for.
+The recurrent neural network outperformed the ensemble classifiers from sci-kit learn by 2-3%.
+
+I will keep on working on this model and test out more of the common startegies that these technical indicators are used for.
