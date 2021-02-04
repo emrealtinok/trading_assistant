@@ -1,6 +1,6 @@
 # trading_assistant
 
-Although there is a lot of noise and random walks in prices of any type of security, I want to see if a recurrent neural network can learn to predict price movements to some extent. I configured this model to predict the direction of the price on the next time step at any given time, so basically it's not a trading bot. The network merely suggests a short-term momentum. 
+Although there is a lot of noise and random walks in prices of any type of security, I want to see if a recurrent neural network can learn to predict price movements to some extent. I configured [this model](https://github.com/emrealtinok/trading_assistant/blob/main/TradingAssistant.ipynb) to predict the direction of the price on the next time step at any given time, so basically it's not a trading bot. The network merely suggests a short-term momentum. I also compared the accuracy of the model to the accuracy of three different ensemble classifiers from sci-kit learn [here](https://github.com/emrealtinok/trading_assistant/blob/main/TradingAssistant(sklearn).ipynb).
 
 I imported data from [this website](https://eaforexacademy.com/software/forex-historical-data/) to train my model. It provides csv files that contain 200,000 bars of currency prices.  
 
